@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="prueba campos tabla" max_length="40" name="x_58872_needit_prueba_campos_tabla" type="collection">
+        <element label="Apellido" max_length="100" name="apellido" type="string"/>
+        <element label="Correo" max_length="100" name="correo" type="string"/>
+        <element choice="1" default="1" label="desplegable" max_length="40" name="desplegable" type="choice">
+            <choice>
+                <element label="primero" value="1"/>
+                <element label="segundo" value="2"/>
+                <element label="tercero" value="3"/>
+            </choice>
+        </element>
+        <element label="Nombre" max_length="100" name="nombre" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" display="true" label="opción desplegable" max_length="40" name="opcion_desplegable" type="choice">
+            <choice/>
+        </element>
+        <element label="Teléfono" max_length="100" name="telefono" type="string"/>
+    </element>
+</database>
